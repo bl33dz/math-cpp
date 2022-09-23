@@ -55,7 +55,7 @@ double rhombus_area(double p, double q) {
 }
 
 double pentagon_area(double s) {
-    return 1.0 / 4.0 * sqrt(5 * (5 + 2 * sqrt(5))) * s * s;
+    return 1.0 / 4.0 * sqrt(5.0 * (5.0 + 2.0 * sqrt(5))) * s * s;
 }
 
 double pentagon_perimeter(double s) {
@@ -63,11 +63,15 @@ double pentagon_perimeter(double s) {
 }
 
 double pentagon_diagonal(double s) {
-    return (1 + sqrt(5)) / 2 * s;
+    return (1.0 + sqrt(5)) / 2.0 * s;
 }
 
 double hexagon_area(double s) {
-    return (3 * sqrt(3)) / 2 * s * s;
+    return (3.0 * sqrt(3)) / 2.0 * s * s;
+}
+
+double hexagon_perimeter(double s) {
+    return 6.0 * s;
 }
 
 int main(int argc, char *argv[]) {
